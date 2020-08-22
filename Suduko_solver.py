@@ -3,7 +3,7 @@ if ans=='m':
     n=int(input("Enter the number of grids : "))
     board=[]
     print("Enter the elements row-wise (\"0\" for empty cells):")
-    for i in range(n*n):
+    for i in range(3*n):
         print("Enter the row {} elements :".format(i+1))
         a=list(map(int,input().split()))
         board.append(a)
